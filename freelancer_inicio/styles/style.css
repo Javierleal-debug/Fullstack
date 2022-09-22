@@ -1,9 +1,21 @@
+:root{
+    --blanco: #ffffff;
+    --gris: #757575;
+    --oscuro: #D1B3C4;
+    --secundario: #F7D1CD;
+    --primario: #BD2D87;
+
+
+}
+
+
 html{
     font-size: 62.5%;
 }
 
 body{
     font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
  /* Convertimos 1rem a 10 px*/ 
@@ -11,7 +23,8 @@ body{
 .Titulo {
     text-align: center;
     font-size: 3.8rem;
-
+    
+    font-weight: 200;
 }
 
 .Titulo span{
