@@ -1,11 +1,9 @@
 :root{
-    --blanco: #ffffff;
-    --gris: #757575;
-    --oscuro: #D1B3C4;
-    --secundario: #F7D1CD;
-    --primario: #BD2D87;
-
-
+    --black: #000100ff;
+    --cadet-blue-crayola: #a1a6b4ff;
+    --light-blue: #94c5ccff;
+    --beau-blue: #b4d2e7ff;
+    --cultured: #f8f8f8ff;
 }
 
 
