@@ -1,9 +1,9 @@
 :root{
-    --black: #000100ff;
-    --cadet-blue-crayola: #a1a6b4ff;
-    --light-blue: #94c5ccff;
-    --beau-blue: #b4d2e7ff;
-    --cultured: #f8f8f8ff;
+    --obscuro: #000100ff;
+    --gris: #a1a6b4ff;
+    --primario: #94c5ccff;
+    --secundario: #b4d2e7ff;
+    --blanco: #f8f8f8ff;
 }
 
 
@@ -27,4 +27,17 @@ body{
 
 .Titulo span{
     font-size: 2rem;
+}  
+
+.navegacion-principal a{
+
+    background-color: var(--primario);
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+
 }
