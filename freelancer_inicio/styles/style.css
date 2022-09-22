@@ -29,15 +29,34 @@ body{
     font-size: 2rem;
 }  
 
-.navegacion-principal a{
+.navegacion-principal {
+    
+    display: flex;
+    justify-content: space-between;
+}
 
+.navegacion-principal a{
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navegacion-principal a:hover{
     background-color: var(--primario);
+    color: var(--obscuro);
 }
 .nav-bg{
     background-color: var(--secundario);
+
 }
 .contenedor{
     width: 120rem;
     margin: 0 auto;
 
+}
+
+
+@media (min-width:) {
+    
 }
