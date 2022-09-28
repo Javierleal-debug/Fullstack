@@ -125,9 +125,41 @@ body{
     border-radius: 1rem;
 }
 
-
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
      
+}
 
+.servicio h3{
+    color: var(--obscuro);
+    font-weight: normal;
+}
+.servicio p{
+ line-height: 2rem;    
+}
+
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.formulario{
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+}
+
+.formuario fieldset{
+    border: none;
+}
 @media (min-width: 768px){
     .boton{
         width: auto;
@@ -137,7 +169,7 @@ body{
     .navegacion-principal {
         flex-direction: column;
         align-items: center;
-    }
+    } 
 
 
 }
@@ -145,7 +177,8 @@ body{
 @media (min-width: 768px){
     .servicios{
         display: grid;
-        grid: 20rem 80rem / 30rem 30rem; 
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10rem;
     }
     
 }
