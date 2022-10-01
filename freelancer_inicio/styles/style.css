@@ -155,10 +155,22 @@ body{
 .formulario{
     background-color: var(--gris);
     width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .formuario fieldset{
     border: none;
+}
+
+.formuario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
 }
 @media (min-width: 768px){
     .boton{
@@ -179,6 +191,7 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 10rem;
+
     }
     
 }
